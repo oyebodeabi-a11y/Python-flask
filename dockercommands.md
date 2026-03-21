@@ -30,3 +30,5 @@ bb0b75a1d316   feyiimage   "python ./main.py"   36 seconds ago   Up 35 seconds (
 # To create and  push an image to docker hub
  $ docker run --name rainbow-container -dp 5004:5004 feyidocker/rainbowimage:1.0
  $ docker push feyidocker/rainbowimage:1.0
+ # To see the contents of the docker image i.e. to exec into a container
+ docker exec -it abicontainer sh
