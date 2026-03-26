@@ -12,3 +12,8 @@ Flask is a lightweight, flexible micro web framework for Python, ideal for small
 
 # This is the homepage of nginx webserver
 <img width="436" height="193" alt="Image" src="https://github.com/user-attachments/assets/c54cc5f4-110e-4999-9a73-e98a17e7ac24" />
+
+
+# This is installing Jenkins on AWS  
+<img width="718" height="331" alt="Image" src="https://github.com/user-attachments/assets/5ff11fdf-ee8c-4373-b6f4-0bbef1c9205a" />
+
