@@ -1,0 +1,21 @@
+pipeline{
+   agent any
+   parameters {
+      
+      
+       string description: 'hello enter your name', name: 'firstname'
+       string description: 'enter your comapany name', name: 'company'
+       string description: 'enter your project', name: 'project'
+   }
+   stages{
+      
+       stage("welcome"){
+          
+        
+           steps{
+              
+               echo "mr/mrs ${params.firstname},from ${params.company} works on ${params.project} project"
+       }
+   }
+   }
+}

@@ -1,0 +1,20 @@
+pipeline{
+    agent any
+    stages{
+        stage("human resources"){
+            steps{
+                sh ' echo "welcome to human resources"'
+            }
+        }
+             stage("finance"){
+            steps{
+                sh ' echo "welcome to finance"'
+            }
+        }
+             stage("technology"){
+            steps{
+                sh ' echo "welcome to technology"'
+            }
+        }
+    }
+}

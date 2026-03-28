@@ -1,0 +1,20 @@
+pipeline{
+   agent any
+   parameters {
+
+
+    string description: 'hello enter your name', name: 'firstname'
+    string description: 'enter your last name', name: 'lastname'
+    string description: 'enter your department', name: 'dept'
+   }
+   stages{
+    
+
+
+    stage("welcome"){
+        steps{
+            echo "Hi ${params.firstname} ${params.lastname} welcome to your department ${params.dept}"
+       }
+   }
+   }
+}
