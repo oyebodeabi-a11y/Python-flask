@@ -17,3 +17,8 @@ Flask is a lightweight, flexible micro web framework for Python, ideal for small
 # This is installing Jenkins on AWS  
 <img width="718" height="331" alt="Image" src="https://github.com/user-attachments/assets/5ff11fdf-ee8c-4373-b6f4-0bbef1c9205a" />
 
+# Docker permission denied
+sudo chmod 777 /var/run/docker.sock
+
+# How to build a docker image
+docker build -t abiimage .
